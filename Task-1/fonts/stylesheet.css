@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Miso';
+	src: url('Miso.eot');
+	src: local('Miso'),
+		url('Miso.eot?#iefix') format('embedded-opentype'),
+		url('Miso.woff') format('woff'),
+		url('Miso.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
