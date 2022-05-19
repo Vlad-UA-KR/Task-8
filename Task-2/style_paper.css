@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #E2E7EC;
+}
+.main{
+    margin: 90px auto;
+    width: 1120px;
+    height: 1100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.container{
+    width: 360px;
+    height: 540px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.main__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/** -------double--------- **/
+
+.container-double{
+    width: 740px;
+    height: 540px;
+    position: relative;
+}
+.container-double__background_image{
+    position: absolute;
+}
+.container-double__background_gradient_1{
+    position: absolute;
+    margin-top: 50px;
+}
+.container-double__background_gradient_2{
+    position: absolute;
+    margin-top: 50px;
+}
+.container-double_p{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(129, 129, 129);
+    text-transform: uppercase;
+    line-height: 2.308;
+    position: absolute;
+    margin-top: 404px;
+    margin-left: 43px;
+}
+.container-double_h3{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.364;
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 43px;
+    width: 385px;
+}
+
+/** ------container--------- **/
+
+.container__text{
+    margin: 25px;
+}
+.container__text_photo{
+    margin-top: 46px;
+}
+.container__text_h3{
+    padding-top: 10px;
+    width: 290px;
+}
+
+/** ------text--------- **/
+
+p{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(129, 129, 129);
+    text-transform: uppercase;
+    line-height: 2.308;
+}
+h3{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(29, 29, 29);
+    text-transform: uppercase;
+    line-height: 1.364;
+}
+
+/** ----------------------- **/
